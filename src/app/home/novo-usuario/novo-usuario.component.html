@@ -1,0 +1,61 @@
+
+
+
+<h4 class="text-center">Registre-se</h4>
+
+<form class="form mt-4" [formGroup]="novoUsuarioForm" (submit)="cadastrar()">
+
+  <div class="form-group">
+    <input placeholder="Nome" class="form-control" formControlName="nome" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="E-mail" class="form-control" formControlName="email" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="CPF" class="form-control" formControlName="cpf" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="Cidade" class="form-control" formControlName="cidade" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="Estado" class="form-control" formControlName="estado" />
+  </div>
+
+
+  <button class="btn btn-primary btn-block">Cadastro</button>
+</form>
+
+
+
+<!--
+  <h4 class="text-center">Registre-se</h4>
+
+<form class="form mt-4">
+
+  <div class="form-group">
+    <input placeholder="Nome" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="E-mail" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="CPF" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="Cidade" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <input placeholder="Estado" class="form-control" />
+  </div>
+
+  <button class="btn btn-primary btn-block">Cadastro</button>
+</form>
+ -->
